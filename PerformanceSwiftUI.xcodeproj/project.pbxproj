@@ -3,20 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2287CD4325E81F0B00D07DE8 /* TestRedrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD4225E81F0B00D07DE8 /* TestRedrawView.swift */; };
+		2287CD4625E8249D00D07DE8 /* RedrawRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD4525E8249D00D07DE8 /* RedrawRoot.swift */; };
+		2287CD4925E82C5000D07DE8 /* RedrawComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD4825E82C5000D07DE8 /* RedrawComponents.swift */; };
+		2287CD4E25E8329B00D07DE8 /* List_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD4D25E8329B00D07DE8 /* List_VStack.swift */; };
+		2287CD5525E833B200D07DE8 /* IntRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD5425E833B200D07DE8 /* IntRow.swift */; };
+		2287CD5C25E8344500D07DE8 /* List_LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD5B25E8344500D07DE8 /* List_LazyVStack.swift */; };
+		2287CD5F25E8347000D07DE8 /* List_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD5E25E8347000D07DE8 /* List_List.swift */; };
+		2287CD6325E8372D00D07DE8 /* TestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD6225E8372D00D07DE8 /* TestList.swift */; };
+		2287CD6625E83A9E00D07DE8 /* SimpleStringRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD6525E83A9E00D07DE8 /* SimpleStringRow.swift */; };
+		2287CD6925E83D6C00D07DE8 /* SimpleStringRowEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD6825E83D6C00D07DE8 /* SimpleStringRowEquatable.swift */; };
+		2287CD6C25E83F0700D07DE8 /* StringRowWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD6B25E83F0700D07DE8 /* StringRowWithBinding.swift */; };
+		2287CD6F25E83F2600D07DE8 /* StringRowWithBindingEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD6E25E83F2600D07DE8 /* StringRowWithBindingEquatable.swift */; };
+		2287CD7D25E843F200D07DE8 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD7C25E843F200D07DE8 /* LazyView.swift */; };
+		2287CD8025E8448500D07DE8 /* MyCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD7F25E8448500D07DE8 /* MyCounter.swift */; };
+		2287CD8E25E8492600D07DE8 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287CD8D25E8492600D07DE8 /* DrawingTest.swift */; };
+		2296BC7525E6EC2C0007B587 /* ViewWithoutBindedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296BC7425E6EC2C0007B587 /* ViewWithoutBindedState.swift */; };
+		2296BC7825E6EDB20007B587 /* SamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296BC7725E6EDB20007B587 /* SamplesView.swift */; };
+		2296BC7C25E6F5600007B587 /* ViewWithBindedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296BC7B25E6F5600007B587 /* ViewWithBindedState.swift */; };
+		2296BC8125E714800007B587 /* ViewWithBindedState2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296BC8025E714800007B587 /* ViewWithBindedState2.swift */; };
+		22ACAF8625F3B83A00965393 /* ViewWithoutBindedState2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ACAF8525F3B83A00965393 /* ViewWithoutBindedState2.swift */; };
+		22ACAF8B25F3D4D600965393 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ACAF8A25F3D4D500965393 /* SwitchView.swift */; };
 		22F09E9F25E40B3F0023A807 /* PerformanceSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F09E9E25E40B3F0023A807 /* PerformanceSwiftUIApp.swift */; };
-		22F09EA125E40B3F0023A807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F09EA025E40B3F0023A807 /* ContentView.swift */; };
 		22F09EA325E40B400023A807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F09EA225E40B400023A807 /* Assets.xcassets */; };
 		22F09EA625E40B400023A807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F09EA525E40B400023A807 /* Preview Assets.xcassets */; };
+		22F09EC825E551090023A807 /* FPSCounter in Frameworks */ = {isa = PBXBuildFile; productRef = 22F09EC725E551090023A807 /* FPSCounter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2287CD4225E81F0B00D07DE8 /* TestRedrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRedrawView.swift; sourceTree = "<group>"; };
+		2287CD4525E8249D00D07DE8 /* RedrawRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedrawRoot.swift; sourceTree = "<group>"; };
+		2287CD4825E82C5000D07DE8 /* RedrawComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedrawComponents.swift; sourceTree = "<group>"; };
+		2287CD4D25E8329B00D07DE8 /* List_VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_VStack.swift; sourceTree = "<group>"; };
+		2287CD5425E833B200D07DE8 /* IntRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntRow.swift; sourceTree = "<group>"; };
+		2287CD5B25E8344500D07DE8 /* List_LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_LazyVStack.swift; sourceTree = "<group>"; };
+		2287CD5E25E8347000D07DE8 /* List_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_List.swift; sourceTree = "<group>"; };
+		2287CD6225E8372D00D07DE8 /* TestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestList.swift; sourceTree = "<group>"; };
+		2287CD6525E83A9E00D07DE8 /* SimpleStringRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStringRow.swift; sourceTree = "<group>"; };
+		2287CD6825E83D6C00D07DE8 /* SimpleStringRowEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStringRowEquatable.swift; sourceTree = "<group>"; };
+		2287CD6B25E83F0700D07DE8 /* StringRowWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRowWithBinding.swift; sourceTree = "<group>"; };
+		2287CD6E25E83F2600D07DE8 /* StringRowWithBindingEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRowWithBindingEquatable.swift; sourceTree = "<group>"; };
+		2287CD7C25E843F200D07DE8 /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		2287CD7F25E8448500D07DE8 /* MyCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCounter.swift; sourceTree = "<group>"; };
+		2287CD8D25E8492600D07DE8 /* DrawingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTest.swift; sourceTree = "<group>"; };
+		2296BC7425E6EC2C0007B587 /* ViewWithoutBindedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithoutBindedState.swift; sourceTree = "<group>"; };
+		2296BC7725E6EDB20007B587 /* SamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplesView.swift; sourceTree = "<group>"; };
+		2296BC7B25E6F5600007B587 /* ViewWithBindedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithBindedState.swift; sourceTree = "<group>"; };
+		2296BC8025E714800007B587 /* ViewWithBindedState2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithBindedState2.swift; sourceTree = "<group>"; };
+		22ACAF8525F3B83A00965393 /* ViewWithoutBindedState2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithoutBindedState2.swift; sourceTree = "<group>"; };
+		22ACAF8A25F3D4D500965393 /* SwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 		22F09E9B25E40B3F0023A807 /* PerformanceSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F09E9E25E40B3F0023A807 /* PerformanceSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceSwiftUIApp.swift; sourceTree = "<group>"; };
-		22F09EA025E40B3F0023A807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22F09EA225E40B400023A807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F09EA525E40B400023A807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22F09EA725E40B400023A807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,12 +68,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F09EC825E551090023A807 /* FPSCounter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2287CD6125E835A500D07DE8 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				2287CD5425E833B200D07DE8 /* IntRow.swift */,
+				2287CD4D25E8329B00D07DE8 /* List_VStack.swift */,
+				2287CD5B25E8344500D07DE8 /* List_LazyVStack.swift */,
+				2287CD5E25E8347000D07DE8 /* List_List.swift */,
+				2287CD6225E8372D00D07DE8 /* TestList.swift */,
+				22ACAF8A25F3D4D500965393 /* SwitchView.swift */,
+				2287CD6525E83A9E00D07DE8 /* SimpleStringRow.swift */,
+				2287CD6825E83D6C00D07DE8 /* SimpleStringRowEquatable.swift */,
+				2287CD6B25E83F0700D07DE8 /* StringRowWithBinding.swift */,
+				2287CD6E25E83F2600D07DE8 /* StringRowWithBindingEquatable.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		2287CD7B25E843E700D07DE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2287CD7C25E843F200D07DE8 /* LazyView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		22F09E9225E40B3F0023A807 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +120,21 @@
 			isa = PBXGroup;
 			children = (
 				22F09E9E25E40B3F0023A807 /* PerformanceSwiftUIApp.swift */,
-				22F09EA025E40B3F0023A807 /* ContentView.swift */,
+				2287CD7B25E843E700D07DE8 /* Helpers */,
 				22F09EA225E40B400023A807 /* Assets.xcassets */,
 				22F09EA725E40B400023A807 /* Info.plist */,
 				22F09EA425E40B400023A807 /* Preview Content */,
+				2296BC7725E6EDB20007B587 /* SamplesView.swift */,
+				2296BC7425E6EC2C0007B587 /* ViewWithoutBindedState.swift */,
+				22ACAF8525F3B83A00965393 /* ViewWithoutBindedState2.swift */,
+				2296BC7B25E6F5600007B587 /* ViewWithBindedState.swift */,
+				2296BC8025E714800007B587 /* ViewWithBindedState2.swift */,
+				2287CD4825E82C5000D07DE8 /* RedrawComponents.swift */,
+				2287CD4525E8249D00D07DE8 /* RedrawRoot.swift */,
+				2287CD4225E81F0B00D07DE8 /* TestRedrawView.swift */,
+				2287CD7F25E8448500D07DE8 /* MyCounter.swift */,
+				2287CD6125E835A500D07DE8 /* Lists */,
+				2287CD8D25E8492600D07DE8 /* DrawingTest.swift */,
 			);
 			path = PerformanceSwiftUI;
 			sourceTree = "<group>";
@@ -85,6 +163,9 @@
 			dependencies = (
 			);
 			name = PerformanceSwiftUI;
+			packageProductDependencies = (
+				22F09EC725E551090023A807 /* FPSCounter */,
+			);
 			productName = PerformanceSwiftUI;
 			productReference = 22F09E9B25E40B3F0023A807 /* PerformanceSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 22F09E9225E40B3F0023A807;
+			packageReferences = (
+				22F09EC625E551090023A807 /* XCRemoteSwiftPackageReference "fps-counter" */,
+			);
 			productRefGroup = 22F09E9C25E40B3F0023A807 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +222,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F09EA125E40B3F0023A807 /* ContentView.swift in Sources */,
+				2287CD6625E83A9E00D07DE8 /* SimpleStringRow.swift in Sources */,
+				2287CD5F25E8347000D07DE8 /* List_List.swift in Sources */,
+				2296BC7525E6EC2C0007B587 /* ViewWithoutBindedState.swift in Sources */,
+				2287CD4325E81F0B00D07DE8 /* TestRedrawView.swift in Sources */,
+				2287CD8025E8448500D07DE8 /* MyCounter.swift in Sources */,
 				22F09E9F25E40B3F0023A807 /* PerformanceSwiftUIApp.swift in Sources */,
+				2296BC7825E6EDB20007B587 /* SamplesView.swift in Sources */,
+				2287CD6325E8372D00D07DE8 /* TestList.swift in Sources */,
+				2287CD4625E8249D00D07DE8 /* RedrawRoot.swift in Sources */,
+				2287CD6F25E83F2600D07DE8 /* StringRowWithBindingEquatable.swift in Sources */,
+				2287CD4E25E8329B00D07DE8 /* List_VStack.swift in Sources */,
+				22ACAF8625F3B83A00965393 /* ViewWithoutBindedState2.swift in Sources */,
+				2296BC8125E714800007B587 /* ViewWithBindedState2.swift in Sources */,
+				2287CD8E25E8492600D07DE8 /* DrawingTest.swift in Sources */,
+				2287CD5C25E8344500D07DE8 /* List_LazyVStack.swift in Sources */,
+				2287CD6925E83D6C00D07DE8 /* SimpleStringRowEquatable.swift in Sources */,
+				2287CD6C25E83F0700D07DE8 /* StringRowWithBinding.swift in Sources */,
+				2287CD7D25E843F200D07DE8 /* LazyView.swift in Sources */,
+				22ACAF8B25F3D4D600965393 /* SwitchView.swift in Sources */,
+				2287CD5525E833B200D07DE8 /* IntRow.swift in Sources */,
+				2287CD4925E82C5000D07DE8 /* RedrawComponents.swift in Sources */,
+				2296BC7C25E6F5600007B587 /* ViewWithBindedState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22F09EC625E551090023A807 /* XCRemoteSwiftPackageReference "fps-counter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konoma/fps-counter/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22F09EC725E551090023A807 /* FPSCounter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22F09EC625E551090023A807 /* XCRemoteSwiftPackageReference "fps-counter" */;
+			productName = FPSCounter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22F09E9325E40B3F0023A807 /* Project object */;
 }

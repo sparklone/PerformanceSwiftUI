@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FPSCounter",
+        "repositoryURL": "https://github.com/konoma/fps-counter/",
+        "state": {
+          "branch": null,
+          "revision": "ce58ec45cae81990faabfce4d646138b37b4d9d0",
+          "version": "4.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
